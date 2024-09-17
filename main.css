@@ -182,9 +182,8 @@ hr {
     padding: 15px;
     text-align: center;
 }
-.letters .finished{
+.letters.finished{
     pointer-events: none;
-    cursor:not-allowed;
 }
 .letters .letter-box{
     width: 55px;

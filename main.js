@@ -38,8 +38,9 @@ let randomPropName = allkeys[randomPropNumber];
 let randomPropValue = words[randomPropName];
 // random number depends on words
 let randomValueNumber = Math.floor(Math.random() * randomPropValue.length);
-//the chosen word
-let randomValueValue = randomPropValue[randomPropNumber];
+// the chosen word
+let randomValueValue = randomPropValue[randomValueNumber];
+
 
 // set category onfo 
 document.querySelector(".game-info .category span").innerHTML = randomPropName;
@@ -167,16 +168,11 @@ function wonGame() {
     let div = document.createElement("div");
 
     // Create the text with a span for the variable
-    div.innerHTML = `Congratulations! You Won! The Word Was <span class="highlight">${randomValueValue}</span>`;
+    div.innerHTML = `Congratulations! You Won! The Word Was: (${randomValueValue})`;
 
     // Append the div to the body or a specific container
     document.body.appendChild(div);
 
     // Add the popup class to the div
     div.className = 'popup';
-
-    // Add the show class to trigger the transition
-    setTimeout(() => {
-        div.classList.add('show');
-    }, 10);
 }
