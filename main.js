@@ -126,17 +126,17 @@ document.addEventListener("click", (e)=> {
             theDraw.classList.add(`wrong-${wrongAttempts}`);
 
             //play fail sound
-            document.getElementById("fail").play();
+            document.getElementById("FAIL").play();
             if (wrongAttempts === 8){
-
+                
                 
                 endGame();
                 lettersContainer.classList.add("finished");
-                // document.getElementById("lose").play();
+                document.getElementById("lose").play();
             }
         }else{
             //play seccess
-            document.getElementById("success").play();
+            document.getElementById("SUCCESS").play();
         }
         console.log(wrongAttempts);
     }
@@ -148,7 +148,7 @@ function endGame() {
     let div = document.createElement("div");
     
     // Create Text
-    let divText = document.createTextNode(`Wrong! The Word Was: (${randomValueValue})`);
+    let divText = document.createTextNode(`(${randomValueValue}) :انشنق الرجال خلاص, الجواب الصح كان`);
     
     
     // Append Text To Div
@@ -168,7 +168,7 @@ function wonGame() {
     let div = document.createElement("div");
 
     // Create the text with a span for the variable
-    div.innerHTML = `Congratulations! You Won! The Word Was: (${randomValueValue})`;
+    div.innerHTML = `(${randomValueValue}) :صح عليك الجواب`;
 
     // Append the div to the body or a specific container
     document.body.appendChild(div);
