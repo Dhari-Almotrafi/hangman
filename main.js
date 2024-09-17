@@ -126,7 +126,7 @@ document.addEventListener("click", (e)=> {
             theDraw.classList.add(`wrong-${wrongAttempts}`);
 
             //play fail sound
-            document.getElementById("FAIL").play();
+            document.getElementById("fail").play();
             if (wrongAttempts === 8){
                 
                 
@@ -136,7 +136,7 @@ document.addEventListener("click", (e)=> {
             }
         }else{
             //play seccess
-            document.getElementById("SUCCESS").play();
+            document.getElementById("success").play();
         }
         console.log(wrongAttempts);
     }
