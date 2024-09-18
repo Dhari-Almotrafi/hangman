@@ -21,10 +21,10 @@ lettersArray.forEach(letter => {
 });
 
 const words = {
-    animes: ["One Piece","Attack On Titan","Moriarty","Naruto","HunterXHunter","Kingdom","Jujutsu","Vinland Saga"],
-    movies:["ShawShank","Prestige","Intersteller","Shutter Island","Cast Away","Scent Of a Woman"],
-    youtubers:["LLE","3Adel","Abu 3beer","Banderita","Mrfifa","shongxbong"],
-    esports:["Falcons","Power","Tu","R8","Peaks"]
+    animes: ["One Piece","Attack On Titan","Moriarty","Naruto","HunterXHunter","Kingdom","Jujutsu","Vinland Saga","Monster","Demon Slayer","One Punch Man","Neverland","Slam Dunk","Death Note","Bleach","Gintama"],
+    movies:["ShawShank","The Prestige","Intersteller","Shutter Island","Cast Away","Scent Of a Woman","1917","Top Gun","The Godfather","The Dark Knight","Pulp Fiction","The Good, the Bad and the Ugly","The Departed","Gladiator","The Pianist","The Green Mile","Se7en","Goodfellas","Inception","Fight Club","Forrest Gump","","","",""],
+    youtubers:["LLE","3Adel","Abu 3beer","Banderita","Mrfifa","shongxbong","opiilz","oden","Drb7h","FZX","d7oomy999","RAED","6rba","Bo3omar","Ai Show","Ahmed Show","MrMrSnb","Rakanoo","MjrmGames","FFearFFul","xxYjYxx"],
+    esports:["Falcons","Power","Tu","R8","Peaks","25"]
 }
 
 //random property
